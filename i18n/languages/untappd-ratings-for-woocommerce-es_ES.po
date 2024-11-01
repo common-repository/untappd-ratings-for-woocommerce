@@ -1,0 +1,423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Untappd Ratings for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-06 08:26+0000\n"
+"PO-Revision-Date: 2024-03-14 08:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: untappd-ratings-for-woocommerce"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:335
+msgid " at "
+msgstr " en "
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:331
+msgid " on "
+msgstr " el "
+
+#. %s rating: Total customer reviews
+#: templates/woocommerce/single-product/rating.php:70
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s opinión de cliente"
+msgstr[1] "%s opiniones de clientes"
+
+#. %s rating: Total ratings
+#: templates/woocommerce/single-product/rating.php:67
+#, php-format
+msgid "%s rating"
+msgid_plural "%s ratings"
+msgstr[0] "%s calificación"
+msgstr[1] "%s calificaciones"
+
+#: includes/class-urwc-settings.php:240
+msgid "Add product link"
+msgstr "Agregar enlace de producto"
+
+#: includes/class-urwc-settings.php:196
+msgid ""
+"Add rating data to structured data to display it on search engines (Google, "
+"Bing etc...)"
+msgstr ""
+"Agregue datos de calificación a datos estructurados para mostrarlos en los "
+"motores de búsqueda (Google, Bing, etc.)"
+
+#: includes/class-urwc-settings.php:206
+msgid ""
+"Add rating data to structured data when checkin comment is present. If not "
+"checked a comment is added to review."
+msgstr ""
+"Agregue datos de calificación a datos estructurados cuando haya un "
+"comentario de registro. Si no se marca, se agrega un comentario para revisar."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:409
+msgid "API not working:"
+msgstr "La API no funciona:"
+
+#: includes/class-urwc-settings.php:104
+msgid "API server address"
+msgstr "dirección del servidor API"
+
+#: includes/class-urwc-settings.php:103
+msgid "API Url"
+msgstr "URL de API"
+
+#: includes/class-urwc-settings.php:113
+msgid "APP Name"
+msgstr "Nombre de la aplicación"
+
+#: includes/class-urwc-settings.php:260
+msgid "Apply disallowed and moderation words filters to Untappd data."
+msgstr ""
+"Aplique filtros de palabras no permitidas y de moderación a los datos de "
+"Untappd."
+
+#: includes/class-urwc-ajax.php:74
+msgid "Beer with id %d does not exist."
+msgstr "La cerveza con id %d no existe."
+
+#: includes/class-urwc-settings.php:231
+msgid ""
+"Cache disabled to prevent infinite calls to the Untappd API. This setting "
+"disables the Untappd map feed."
+msgstr ""
+"Caché deshabilitada para evitar llamadas infinitas a la API Untappd. Esta "
+"configuración deshabilita la fuente de mapas Untappd."
+
+#: includes/class-urwc-settings.php:232
+msgid "Cache is enabled."
+msgstr "El caché está habilitado."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:388
+msgid "Cache not working."
+msgstr "La caché no funciona."
+
+#: includes/class-urwc-settings.php:228
+msgid "Cache status"
+msgstr "Estado de caché"
+
+#: includes/class-urwc-settings.php:123
+msgid "Cache time"
+msgstr "Tiempo de Cache"
+
+#: includes/class-urwc-settings.php:261
+msgid ""
+"Checkins with WP disallowed words will not be shown and checkins with "
+"moderated words will only be shown to WP editors."
+msgstr ""
+"Los registros con palabras no permitidas de WP no se mostrarán y los "
+"registros con palabras moderadas solo se mostrarán a los editores de WP."
+
+#. Author of the plugin
+msgid "Chillcode"
+msgstr "código frío"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:332
+msgid "Comment"
+msgstr "Comentario"
+
+#: includes/class-urwc-ajax.php:44
+msgid "Configure Untappd API to start using it."
+msgstr "Configure la API Untappd para comenzar a usarla."
+
+#: includes/class-urwc-ratings.php:173
+msgid "Configure Untappd for WooCommerce to start using it."
+msgstr "Configure Untappd para WooCommerce para comenzar a usarlo."
+
+#. Description of the plugin
+msgid "Connect your WooCommerce Store with Untappd"
+msgstr "Conecte su tienda WooCommerce con Untappd"
+
+#: includes/class-urwc-settings.php:186
+msgid "Display a link to Untappd with total ratings."
+msgstr "Muestra un enlace a Untappd con calificaciones totales."
+
+#: includes/class-urwc-settings.php:176
+msgid "Display ratings in text format x/5"
+msgstr "Mostrar calificaciones en formato de texto x/5"
+
+#: includes/class-urwc-settings.php:175
+msgid "Display ratings text"
+msgstr "Mostrar texto de calificaciones"
+
+#: includes/class-urwc-settings.php:185
+msgid "Display total ratings"
+msgstr "Mostrar calificaciones totales"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:415
+msgid "Empty feed."
+msgstr "Pienso vacío."
+
+#: includes/class-urwc-settings.php:166
+msgid ""
+"Enable sorting on loop-page by Untappd ratings. To enable sorting by ratings,"
+" URWC will add post meta data to all products."
+msgstr ""
+"Habilite la clasificación en la página en bucle por calificaciones de "
+"Untappd. Para permitir la clasificación por calificaciones, URWC agregará "
+"metadatos de publicaciones a todos los productos."
+
+#: includes/class-urwc-ajax.php:104 includes/class-urwc-ajax.php:159
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:351
+msgctxt "enhanced select"
+msgid "API not configured."
+msgstr "API no configurada."
+
+#: includes/class-urwc-ratings.php:139
+msgctxt "enhanced select"
+msgid "Copied to clipboard"
+msgstr "Copiado al portapapeles"
+
+#: includes/class-urwc-ajax.php:133 includes/class-urwc-ajax.php:185
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "No se encontraron coincidencias"
+
+#: includes/class-urwc-ajax.php:119 includes/class-urwc-ajax.php:171
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "Por favor ingrese %qty% o más caracteres"
+
+#: includes/class-urwc-ratings.php:141
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more numbers"
+msgstr "Por favor ingrese %qty% o más números"
+
+#: includes/class-urwc-ratings.php:140
+msgctxt "enhanced select"
+msgid "Please enter 1 or more numbers"
+msgstr "Por favor ingrese 1 o más números"
+
+#: includes/class-urwc-product.php:154
+msgid ""
+"Enter a beer id or a search term to find the beer ID. Use brewery name and "
+"beer name to prevent too many calls to Untappd API."
+msgstr ""
+"Ingrese una identificación de cerveza o un término de búsqueda para "
+"encontrar la identificación de la cerveza. Utilice el nombre de la "
+"cervecería y el nombre de la cerveza para evitar demasiadas llamadas a la "
+"API de Untappd."
+
+#: includes/class-urwc-ajax.php:77
+msgid "Error retrieving beer information with id %d."
+msgstr "Error al recuperar información de cerveza con ID %d."
+
+#. Author URI of the plugin
+msgid "https://github.com/chillcode/"
+msgstr "https://github.com/chillcode/"
+
+#. URI of the plugin
+msgid "https://github.com/chillcode/untappd-ratings-for-woocommerce"
+msgstr "https://github.com/chillcode/untappd-ratings-for-woocommerce"
+
+#: includes/class-urwc-settings.php:241
+msgid ""
+"If Untappd reviewed beverage exists on Woo products show a link to it on the "
+"InfoWindow."
+msgstr ""
+"Si la bebida revisada por Untappd existe en los productos Woo, muestre un "
+"enlace en la ventana de información."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:367
+msgid "Invalid brewery id."
+msgstr "Identificación de cervecería no válida."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:361
+msgid "Invalid map id."
+msgstr "ID de mapa no válido."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:130
+msgid "Invalid shortcode attributes. Please verify the configuration."
+msgstr ""
+"Atributos de shortcode no válidos. Por favor verifique la configuración."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:334
+msgid "is drinking a"
+msgstr "está bebiendo un"
+
+#: includes/class-urwc-settings.php:251
+msgid "Only show ratings and reviews to WP editors on InfoWindows."
+msgstr ""
+"Muestre solo calificaciones y reseñas a los editores de WP en InfoWindows."
+
+#: includes/class-urwc-settings.php:156
+msgid "Overwrite WooCommerce ratings with Untappd one's."
+msgstr "Sobrescriba las calificaciones de WooCommerce con las de Untappd."
+
+#. %s: API ratelimit remaining
+#: includes/class-urwc-settings.php:78
+#, php-format
+msgid "Rate limit remaining per next hour: %s calls"
+msgstr "Límite de tarifa restante para la próxima hora: %s llamadas"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:333
+msgid "Rating"
+msgstr "Clasificación"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:338
+msgid "Reviews are not verified"
+msgstr "Las reseñas no están verificadas"
+
+#: includes/class-urwc-product.php:159
+msgid "Search for a beer&hellip;"
+msgstr "Busca una cerveza..."
+
+#: includes/class-urwc-settings.php:292
+msgid "Search for a Brewery&hellip;"
+msgstr "Busque una cervecería…"
+
+#: includes/class-urwc-settings.php:281
+msgid ""
+"Search to find your brewery ID. Click on the selector to copy the ID to "
+"clipboard."
+msgstr ""
+"Busque para encontrar el ID de su cervecería. Haga clic en el selector para "
+"copiar el ID al portapapeles."
+
+#: includes/class-urwc-ratings.php:77
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-urwc-settings.php:133
+msgid "Show \"Powered by Untappd\" logo"
+msgstr "Mostrar el logotipo \"Desarrollado por Untappd\""
+
+#: includes/class-urwc-settings.php:134
+msgid "Show \"Powered by Untappd\" logo at Storefront credit links"
+msgstr ""
+"Muestre el logotipo \"Desarrollado por Untappd\" en los enlaces de crédito "
+"del escaparate"
+
+#: includes/class-urwc-settings.php:271
+msgid ""
+"Show a disclaimer linking to Untappd Guidelines at the footer of the "
+"infoWindow."
+msgstr ""
+"Muestre un descargo de responsabilidad que enlace a las Directrices de "
+"Untappd en el pie de página de la ventana de información."
+
+#: includes/class-urwc-settings.php:270
+msgid "Show disclaimer on infoWindows marker."
+msgstr "Mostrar descargo de responsabilidad en el marcador de infoWindows."
+
+#: includes/class-urwc-settings.php:250
+msgid "Show ratings/reviews only to WP editors."
+msgstr "Muestra calificaciones/reseñas solo a los editores de WP."
+
+#: includes/class-urwc-settings.php:165
+msgid "Sort using Untappd Ratings"
+msgstr "Ordenar usando calificaciones de Untappd"
+
+#: includes/class-urwc-settings.php:195
+msgid "Structured data"
+msgstr "Datos estructurados"
+
+#: includes/class-urwc-settings.php:205
+msgid "Structured data comments only"
+msgstr "Solo comentarios de datos estructurados"
+
+#: includes/class-urwc-ajax.php:52
+msgid "The supplied beer ID is not valid."
+msgstr "La identificación de cerveza proporcionada no es válida."
+
+#: includes/class-urwc-settings.php:235
+msgid ""
+"This setting is automatically set to disabled cache when URWC failed to "
+"store Untappd data. When disabled, Untapdd Map Feed will not load data."
+msgstr ""
+"Esta configuración se establece automáticamente en caché deshabilitada "
+"cuando URWC no pudo almacenar datos de Untappd. Cuando está deshabilitado, "
+"Untapdd Map Feed no cargará datos."
+
+#: includes/class-urwc-settings.php:124
+msgid "Time the API query is cached"
+msgstr "Hora en que se almacena en caché la consulta API"
+
+#: includes/class-urwc-product.php:338
+msgid "Unknown Author"
+msgstr "Autor desconocido"
+
+#: includes/class-urwc-product.php:112 includes/class-urwc-settings.php:43
+msgid "Untappd"
+msgstr "Enderezado"
+
+#: includes/class-urwc-settings.php:75
+msgid "Untappd API"
+msgstr "API desaprovechada"
+
+#: includes/class-urwc-settings.php:83
+msgid "Untappd API Client ID"
+msgstr "ID de cliente API Untappd"
+
+#: includes/class-urwc-settings.php:84
+msgid "Untappd API Client ID required to connect to Untappd API. Ask for it."
+msgstr ""
+"Se requiere el ID de cliente de la API de Untappd para conectarse a la API "
+"de Untappd. Pregunta por ello."
+
+#: includes/class-urwc-settings.php:93
+msgid "Untappd API Client Secret"
+msgstr "Secreto del cliente API Untappd"
+
+#: includes/class-urwc-settings.php:94
+msgid "Untappd API Client Secret required to connect to Untappd API"
+msgstr ""
+"Se requiere el secreto del cliente API de Untappd para conectarse a la API "
+"de Untappd"
+
+#: includes/class-urwc-product.php:151
+msgid "Untappd beer search"
+msgstr "Búsqueda de cerveza en Untappd"
+
+#: includes/class-urwc-settings.php:280
+msgid "Untappd brewery search"
+msgstr "Búsqueda de cervecería en Untappd"
+
+#: includes/class-urwc-settings.php:220
+msgid "Untappd map"
+msgstr "Mapa Untappd"
+
+#: includes/class-urwc-product.php:342
+msgid "Untappd Rating"
+msgstr "Clasificación no aprovechada"
+
+#: templates/woocommerce/single-product/rating.php:78
+msgid "Untappd Ratings"
+msgstr "Calificaciones Untappd"
+
+#: includes/class-urwc-settings.php:148
+msgid "Untappd ratings"
+msgstr "Calificaciones Untappd"
+
+#. Name of the plugin
+msgid "Untappd Ratings for WooCommerce"
+msgstr "Calificaciones Untappd para WooCommerce"
+
+#: includes/class-urwc-ratings.php:59
+msgid ""
+"Untappd Ratings for WooCommerce requires WooCommerce to be installed and "
+"active."
+msgstr ""
+"Untappd Ratings para WooCommerce requiere que WooCommerce esté instalado y "
+"activo."
+
+#: includes/class-urwc-settings.php:155
+msgid "Use Untappd ratings"
+msgstr "Usar calificaciones de Untappd"
+
+#: includes/class-urwc-settings.php:114
+msgid "Used to identify the application on the server"
+msgstr "Se utiliza para identificar la aplicación en el servidor."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:336
+msgid "View product"
+msgstr "Ver el producto"

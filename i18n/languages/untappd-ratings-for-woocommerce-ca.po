@@ -1,0 +1,418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Untappd Ratings for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-06 08:26+0000\n"
+"PO-Revision-Date: 2024-03-14 08:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: untappd-ratings-for-woocommerce"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:335
+msgid " at "
+msgstr " a les "
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:331
+msgid " on "
+msgstr " el "
+
+#. %s rating: Total customer reviews
+#: templates/woocommerce/single-product/rating.php:70
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s ressenya dels clients"
+msgstr[1] "%s opinions dels clients"
+
+#. %s rating: Total ratings
+#: templates/woocommerce/single-product/rating.php:67
+#, php-format
+msgid "%s rating"
+msgid_plural "%s ratings"
+msgstr[0] "%s puntuació"
+msgstr[1] "%s puntuacions"
+
+#: includes/class-urwc-settings.php:240
+msgid "Add product link"
+msgstr "Afegeix l'enllaç del producte"
+
+#: includes/class-urwc-settings.php:196
+msgid ""
+"Add rating data to structured data to display it on search engines (Google, "
+"Bing etc...)"
+msgstr ""
+"Afegiu dades de valoració a dades estructurades per mostrar-les als motors "
+"de cerca (Google, Bing, etc...)"
+
+#: includes/class-urwc-settings.php:206
+msgid ""
+"Add rating data to structured data when checkin comment is present. If not "
+"checked a comment is added to review."
+msgstr ""
+"Afegiu dades de valoració a les dades estructurades quan hi hagi un "
+"comentari de registre. Si no està marcat, s'afegeix un comentari per revisar."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:409
+msgid "API not working:"
+msgstr "L'API no funciona:"
+
+#: includes/class-urwc-settings.php:104
+msgid "API server address"
+msgstr "Adreça del servidor de l'API"
+
+#: includes/class-urwc-settings.php:103
+msgid "API Url"
+msgstr "URL de l'API"
+
+#: includes/class-urwc-settings.php:113
+msgid "APP Name"
+msgstr "Nom de l'aplicació"
+
+#: includes/class-urwc-settings.php:260
+msgid "Apply disallowed and moderation words filters to Untappd data."
+msgstr ""
+"Apliqueu filtres de paraules no permeses i de moderació a les dades Untappd."
+
+#: includes/class-urwc-ajax.php:74
+msgid "Beer with id %d does not exist."
+msgstr "La cervesa amb l'identificador %d no existeix."
+
+#: includes/class-urwc-settings.php:231
+msgid ""
+"Cache disabled to prevent infinite calls to the Untappd API. This setting "
+"disables the Untappd map feed."
+msgstr ""
+"La memòria cau desactivada per evitar trucades infinites a l'API Untappd. "
+"Aquesta configuració desactiva el feed de mapes Untappd."
+
+#: includes/class-urwc-settings.php:232
+msgid "Cache is enabled."
+msgstr "La memòria cau està activada."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:388
+msgid "Cache not working."
+msgstr "La memòria cau no funciona."
+
+#: includes/class-urwc-settings.php:228
+msgid "Cache status"
+msgstr "Estat de la memòria cau"
+
+#: includes/class-urwc-settings.php:123
+msgid "Cache time"
+msgstr "Temps de memòria cau"
+
+#: includes/class-urwc-settings.php:261
+msgid ""
+"Checkins with WP disallowed words will not be shown and checkins with "
+"moderated words will only be shown to WP editors."
+msgstr ""
+"Els registres amb paraules no permeses de WP no es mostraran i els registres "
+"amb paraules moderades només es mostraran als editors de WP."
+
+#. Author of the plugin
+msgid "Chillcode"
+msgstr "Chillcode"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:332
+msgid "Comment"
+msgstr "Comentari"
+
+#: includes/class-urwc-ajax.php:44
+msgid "Configure Untappd API to start using it."
+msgstr "Configura l'API Untappd per començar a utilitzar-la."
+
+#: includes/class-urwc-ratings.php:173
+msgid "Configure Untappd for WooCommerce to start using it."
+msgstr "Configureu Untappd per a WooCommerce per començar a utilitzar-lo."
+
+#. Description of the plugin
+msgid "Connect your WooCommerce Store with Untappd"
+msgstr "Connecteu la vostra botiga WooCommerce amb Untappd"
+
+#: includes/class-urwc-settings.php:186
+msgid "Display a link to Untappd with total ratings."
+msgstr "Mostra un enllaç a Untappd amb les valoracions totals."
+
+#: includes/class-urwc-settings.php:176
+msgid "Display ratings in text format x/5"
+msgstr "Mostra les puntuacions en format de text x/5"
+
+#: includes/class-urwc-settings.php:175
+msgid "Display ratings text"
+msgstr "Mostra el text de les valoracions"
+
+#: includes/class-urwc-settings.php:185
+msgid "Display total ratings"
+msgstr "Mostra les valoracions totals"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:415
+msgid "Empty feed."
+msgstr "Alimentació buida."
+
+#: includes/class-urwc-settings.php:166
+msgid ""
+"Enable sorting on loop-page by Untappd ratings. To enable sorting by ratings,"
+" URWC will add post meta data to all products."
+msgstr ""
+"Habiliteu l'ordenació a la pàgina de bucle per puntuacions Untappd. Per "
+"habilitar l'ordenació per classificacions, URWC afegirà metadades de "
+"publicació a tots els productes."
+
+#: includes/class-urwc-ajax.php:104 includes/class-urwc-ajax.php:159
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:351
+msgctxt "enhanced select"
+msgid "API not configured."
+msgstr "API no configurada."
+
+#: includes/class-urwc-ratings.php:139
+msgctxt "enhanced select"
+msgid "Copied to clipboard"
+msgstr "S'ha copiat al porta-retalls"
+
+#: includes/class-urwc-ajax.php:133 includes/class-urwc-ajax.php:185
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "No s'han trobat coincidències"
+
+#: includes/class-urwc-ajax.php:119 includes/class-urwc-ajax.php:171
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "Introduïu %qty% o més caràcters"
+
+#: includes/class-urwc-ratings.php:141
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more numbers"
+msgstr "Introduïu %qty% o més números"
+
+#: includes/class-urwc-ratings.php:140
+msgctxt "enhanced select"
+msgid "Please enter 1 or more numbers"
+msgstr "Introduïu 1 o més números"
+
+#: includes/class-urwc-product.php:154
+msgid ""
+"Enter a beer id or a search term to find the beer ID. Use brewery name and "
+"beer name to prevent too many calls to Untappd API."
+msgstr ""
+"Introduïu un identificador de cervesa o un terme de cerca per trobar "
+"l'identificador de la cervesa. Utilitzeu el nom de la cerveseria i el nom de "
+"la cervesa per evitar massa trucades a l'API Untappd."
+
+#: includes/class-urwc-ajax.php:77
+msgid "Error retrieving beer information with id %d."
+msgstr ""
+"S'ha produït un error en recuperar la informació de la cervesa amb "
+"l'identificador %d."
+
+#. Author URI of the plugin
+msgid "https://github.com/chillcode/"
+msgstr "https://github.com/chillcode/"
+
+#. URI of the plugin
+msgid "https://github.com/chillcode/untappd-ratings-for-woocommerce"
+msgstr "https://github.com/chillcode/untappd-ratings-for-woocommerce"
+
+#: includes/class-urwc-settings.php:241
+msgid ""
+"If Untappd reviewed beverage exists on Woo products show a link to it on the "
+"InfoWindow."
+msgstr ""
+"Si existeix una beguda revisada per Untappd als productes Woo, mostreu-hi un "
+"enllaç a la finestra d'informació."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:367
+msgid "Invalid brewery id."
+msgstr "Identificador de cerveseria no vàlid."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:361
+msgid "Invalid map id."
+msgstr "Identificador de mapa no vàlid."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:130
+msgid "Invalid shortcode attributes. Please verify the configuration."
+msgstr "Atributs de codi curt no vàlids. Verifiqueu la configuració."
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:334
+msgid "is drinking a"
+msgstr "està bevent una"
+
+#: includes/class-urwc-settings.php:251
+msgid "Only show ratings and reviews to WP editors on InfoWindows."
+msgstr "Mostra només puntuacions i ressenyes als editors de WP a InfoWindows."
+
+#: includes/class-urwc-settings.php:156
+msgid "Overwrite WooCommerce ratings with Untappd one's."
+msgstr "Sobreescriu les puntuacions de WooCommerce amb les de Untappd."
+
+#. %s: API ratelimit remaining
+#: includes/class-urwc-settings.php:78
+#, php-format
+msgid "Rate limit remaining per next hour: %s calls"
+msgstr "Límit de tarifa restant per l'hora següent: %s trucades"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:333
+msgid "Rating"
+msgstr "Valoració"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:338
+msgid "Reviews are not verified"
+msgstr "Les ressenyes no estan verificades"
+
+#: includes/class-urwc-product.php:159
+msgid "Search for a beer&hellip;"
+msgstr "Busca una cervesa..."
+
+#: includes/class-urwc-settings.php:292
+msgid "Search for a Brewery&hellip;"
+msgstr "Busca una cerveseria..."
+
+#: includes/class-urwc-settings.php:281
+msgid ""
+"Search to find your brewery ID. Click on the selector to copy the ID to "
+"clipboard."
+msgstr ""
+"Cerca per trobar el teu identificador de cerveseria. Feu clic al selector "
+"per copiar l'ID al porta-retalls."
+
+#: includes/class-urwc-ratings.php:77
+msgid "Settings"
+msgstr "Configuració"
+
+#: includes/class-urwc-settings.php:133
+msgid "Show \"Powered by Untappd\" logo"
+msgstr "Mostra el logotip \"Powered by Untappd\"."
+
+#: includes/class-urwc-settings.php:134
+msgid "Show \"Powered by Untappd\" logo at Storefront credit links"
+msgstr ""
+"Mostra el logotip \"Powered by Untappd\" als enllaços de crèdit de Storefront"
+
+#: includes/class-urwc-settings.php:271
+msgid ""
+"Show a disclaimer linking to Untappd Guidelines at the footer of the "
+"infoWindow."
+msgstr ""
+"Mostra una exempció de responsabilitat que enllaça amb les directrius "
+"Untappd al peu de la finestra d'informació."
+
+#: includes/class-urwc-settings.php:270
+msgid "Show disclaimer on infoWindows marker."
+msgstr "Mostra l'exempció de responsabilitat al marcador d'infoWindows."
+
+#: includes/class-urwc-settings.php:250
+msgid "Show ratings/reviews only to WP editors."
+msgstr "Mostra les valoracions/ressenyes només als editors de WP."
+
+#: includes/class-urwc-settings.php:165
+msgid "Sort using Untappd Ratings"
+msgstr "Ordena amb Untappd Ratings"
+
+#: includes/class-urwc-settings.php:195
+msgid "Structured data"
+msgstr "Dades estructurades"
+
+#: includes/class-urwc-settings.php:205
+msgid "Structured data comments only"
+msgstr "Només comentaris de dades estructurades"
+
+#: includes/class-urwc-ajax.php:52
+msgid "The supplied beer ID is not valid."
+msgstr "L'identificador de cervesa subministrat no és vàlid."
+
+#: includes/class-urwc-settings.php:235
+msgid ""
+"This setting is automatically set to disabled cache when URWC failed to "
+"store Untappd data. When disabled, Untapdd Map Feed will not load data."
+msgstr ""
+"Aquesta configuració s'estableix automàticament a la memòria cau desactivada "
+"quan URWC no ha pogut emmagatzemar les dades Untappd. Quan està desactivat, "
+"Untapdd Map Feed no carregarà dades."
+
+#: includes/class-urwc-settings.php:124
+msgid "Time the API query is cached"
+msgstr "Temps en què s'emmagatzema la consulta de l'API a la memòria cau"
+
+#: includes/class-urwc-product.php:338
+msgid "Unknown Author"
+msgstr "Autor desconegut"
+
+#: includes/class-urwc-product.php:112 includes/class-urwc-settings.php:43
+msgid "Untappd"
+msgstr "Untappd"
+
+#: includes/class-urwc-settings.php:75
+msgid "Untappd API"
+msgstr "Untappd API"
+
+#: includes/class-urwc-settings.php:83
+msgid "Untappd API Client ID"
+msgstr "Untappd ID de client de l'API"
+
+#: includes/class-urwc-settings.php:84
+msgid "Untappd API Client ID required to connect to Untappd API. Ask for it."
+msgstr ""
+"Es requereix un ID de client de l'API Untappd per connectar-se a l'API "
+"Untappd. Demana-ho."
+
+#: includes/class-urwc-settings.php:93
+msgid "Untappd API Client Secret"
+msgstr "Secret de client de l'API Untappd"
+
+#: includes/class-urwc-settings.php:94
+msgid "Untappd API Client Secret required to connect to Untappd API"
+msgstr "Untappd API Client Secret necessari per connectar-se a Untappd API"
+
+#: includes/class-urwc-product.php:151
+msgid "Untappd beer search"
+msgstr "Untappd cerca de cervesa"
+
+#: includes/class-urwc-settings.php:280
+msgid "Untappd brewery search"
+msgstr "Cerca de cerveseria a Untappd"
+
+#: includes/class-urwc-settings.php:220
+msgid "Untappd map"
+msgstr "Untappd mapa"
+
+#: includes/class-urwc-product.php:342
+msgid "Untappd Rating"
+msgstr "Valoració Untappd"
+
+#: templates/woocommerce/single-product/rating.php:78
+msgid "Untappd Ratings"
+msgstr "Valoracions Untappd"
+
+#: includes/class-urwc-settings.php:148
+msgid "Untappd ratings"
+msgstr "Valoracions Untappd"
+
+#. Name of the plugin
+msgid "Untappd Ratings for WooCommerce"
+msgstr "Untappd Ratings for WooCommerce"
+
+#: includes/class-urwc-ratings.php:59
+msgid ""
+"Untappd Ratings for WooCommerce requires WooCommerce to be installed and "
+"active."
+msgstr ""
+"Untappd Ratings per a WooCommerce requereix que WooCommerce estigui "
+"instal·lat i actiu."
+
+#: includes/class-urwc-settings.php:155
+msgid "Use Untappd ratings"
+msgstr "Utilitzeu les classificacions Untappd"
+
+#: includes/class-urwc-settings.php:114
+msgid "Used to identify the application on the server"
+msgstr "S'utilitza per identificar l'aplicació al servidor"
+
+#: addons/brewery-activity-feed/class-urwc-brewery-activity-feed.php:336
+msgid "View product"
+msgstr "Veure producte"

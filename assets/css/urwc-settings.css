@@ -1,0 +1,59 @@
+
+.urwc-search-brewery-result-container {
+    padding-top: 4px;
+    padding-bottom: 3px;
+    height: 60px;
+}
+
+.urwc-search-brewery-result__label {
+    float: left;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.urwc-search-brewery-result__label img {
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+}
+
+.urwc-search-brewery-result__meta {
+    margin-left: 70px;
+}
+
+.urwc-search-brewery-result__name {
+    color: black;
+    font-weight: 700;
+    word-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 4px;
+}
+
+.urwc-search-brewery-result__brewery_country,
+.urwc-search-brewery-result__beer_count {
+    margin-right: 1em;
+}
+
+.urwc-search-brewery-result__beer_count,
+.urwc-search-brewery-result__brewery_country,
+.urwc-search-brewery-result__brewery_page_url {
+    display: inline-block;
+    color: #aaa;
+    font-size: 11px;
+}
+
+.urwc-search-brewery-result-container .dashicons-before::before {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+}
+
+.select2-results__option--highlighted .urwc-search-brewery-result__name {
+    color: white;
+}
+
+.select2-results__option--highlighted .urwc-search-brewery-result__beer_count,
+.select2-results__option--highlighted .urwc-search-brewery-result__brewery_country,
+.select2-results__option--highlighted .urwc-search-brewery-result__brewery_page_url a {
+    color: #c6dcef;
+}
